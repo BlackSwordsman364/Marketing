@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    
+}
+.wrapper{
+    background-image: url('../images/bg.jpg');
+   min-height: 100vh;
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.header{
+    padding-top: 50px;
+    display: flex;
+    
+    align-items: flex-end;
+    margin-bottom: 265px;
+
+}
+.menu{
+    padding-left: 34px;
+}
+.menu ul{
+    display: flex;
+
+}
+
+.menu li+li{
+    margin-left: 25px;
+}
+.menu a{
+    font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #fff;
+text-decoration: none;
+}
+.item{
+    text-align: left;
+    color: #fff;
+}
+.text{
+    font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+max-width: 674px;
+}
+.title{
+    font-weight: 400;
+font-size: 120px;
+line-height: 141px;
+}
+
+.slick-dots{
+    list-style: none;
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+    padding-top: 46px;
+}
+.slick-dots button{ 
+    font-size: 0;
+    border: none;
+    outline: none;
+    background: #fff;
+    width: 20px;
+height: 20px;
+border-radius: 50%;
+cursor: pointer;
+    
+}
